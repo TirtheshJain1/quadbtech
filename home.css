@@ -1,0 +1,387 @@
+* {
+    margin: 0;
+    padding: 0;
+    transition: all 1s;
+    text-overflow: ellipsis;
+}
+
+.topbar {
+    display: flex;
+    flex-direction: row;
+    background: black;
+    color: white;
+    font-size: 8px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    justify-content: space-between;
+    border-bottom: 0.1px grey solid;
+}
+
+a {
+    margin: 0;
+    text-align: center;
+    font-size: 10px;
+}
+
+.topbar1 {
+    background: black;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding-top: 10px;
+    padding-bottom: 40px;
+}
+
+.topbar3 {
+    max-width: 100%;
+    overflow: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background: #be2819;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+}
+
+.topbar3 a:hover {
+    background: white;
+    color: black;
+}
+
+.topbar3 a {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: medium;
+    padding: 1px 5px;
+    line-height: 26px;
+    color: white;
+    font-weight: 700;
+    display: inline-block;
+    position: relative;
+    z-index: 10;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+a.sel {
+    background: white;
+    color: black;
+}
+
+.bigbox {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+.head1,
+.head {
+    font-size: 35px;
+    width: 65%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    color: black;
+    padding: 5px;
+    border-bottom: 2px black solid;
+}
+
+.head {
+    font-size: small;
+    border-bottom: none;
+    font-weight: normal;
+    color: black;
+}
+
+img {
+    max-height: 100%;
+    max-width: 100%;
+}
+
+.bar1,
+.bar2 {
+    width: 100%;
+    align-items: center;
+}
+
+.bar1 {
+    display: flex;
+    justify-content: center;
+}
+
+.bar2 {
+    display: flex;
+    justify-content: center;
+}
+
+.bar2 *,
+.bar1 * {
+    margin: 0 2px;
+}
+
+.sp1 {
+    background: linear-gradient(90deg, #3023ae, #c86dd7) !important;
+    padding: 3px;
+}
+
+.bar2 i {
+    padding: 4px;
+    border-radius: 50%;
+    background: white;
+    margin: 0 2px;
+    font-size: 2.5px;
+    color: grey;
+}
+
+.box {
+    width: 65%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.box1 {
+    width: 100%;
+}
+
+.box2 {
+    width: 50%;
+}
+
+.minbox {
+    display: flex;
+    font-family: Arial, Helvetica, sans-serif;
+    flex-direction: row;
+    color: black;
+    justify-content: flex-start;
+    padding: 25px 0;
+    border-bottom: 0.1px grey solid;
+}
+
+.box2 h5,
+.box2 h4 {
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    font-size: 16px;
+}
+
+.box2 h4 {
+    padding-top: 30px;
+}
+
+.minbox img {
+    min-height: 85px;
+    width: 141px;
+    float: left;
+    min-width: 141px;
+    margin-right: 10px;
+}
+
+.minbox1 {
+    background: grey;
+    color: white;
+}
+
+.ho1 {
+    display: block;
+    width: 100%;
+}
+
+.minbox1 {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    max-width: 100%;
+}
+
+.minbox1 a {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: medium;
+    font-weight: bolder;
+    display: block;
+    border-right: 1px white solid;
+    padding: 10px 5px;
+    text-decoration: none;
+}
+
+.minbox2 {
+    color: black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: small;
+    padding: 10px 5px;
+    border-bottom: 0.1px grey solid;
+}
+
+.minbox1 a:hover,
+.a1 {
+    background: black;
+}
+
+.box2 .minbox img {
+    width: 94px;
+    height: 70px;
+    max-width: 100%;
+}
+
+#footer {
+    background: #111111;
+    text-align: center;
+    padding: 0;
+    width: 100%;
+    padding-top: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    color: white;
+}
+
+.bigbox {
+    padding-bottom: 100px;
+}
+
+#footer a,
+#footer ul,
+#footer li {
+    color: white;
+    text-decoration: none;
+    list-style: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 2.5px;
+    margin: 2.5px;
+}
+
+#footer h2 {
+    color: #cccccc;
+    border-bottom: 0.1px grey solid;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    text-transform: uppercase;
+    font-size: large;
+}
+
+li {
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+#footer ul {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    text-align: left;
+    margin: 0 100px;
+}
+
+section {
+    padding: 10px;
+}
+
+.wrapper {
+    font-size: large;
+    width: 100%;
+    text-align: center;
+    padding: 20px 0;
+    background-color: #111111;
+    color: white;
+}
+
+#footer a:hover {
+    border-radius: 50px;
+    border: 0.1px white solid;
+    margin: 5px;
+}
+
+.hoho {
+    padding: 10px 0;
+    border-bottom: 4px black solid;
+}
+
+@media(max-width:1400px) {
+    .box,
+    .head,
+    .head1 {
+        width: 90%;
+    }
+    .sp1 {
+        display: none;
+    }
+    #footer ul {
+        margin: 0;
+    }
+}
+
+@media(max-width:1024px) {
+    #footer a,
+    #footer ul,
+    #footer li {
+        color: white;
+        text-decoration: none;
+        list-style: none;
+        font-size: large;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        padding: 2.5px;
+        margin: 2.5px;
+    }
+    #footer ul {
+        display: block;
+        grid-template-columns: auto auto auto;
+    }
+    #footer {
+        padding: none;
+        flex-direction: column;
+    }
+    #footer a {
+        border-radius: 50px;
+        border: 0.1px white solid;
+        margin: 5px;
+    }
+    .topbar {
+        flex-direction: row;
+        font-size: 13px;
+        justify-content: space-between;
+    }
+    a {
+        font-size: 13px;
+    }
+    .bar1 {
+        justify-content: flex-start;
+    }
+    .bar2 {
+        justify-content: end;
+    }
+    .bar1 {
+        padding-bottom: 8px;
+    }
+    .bar2 {
+        flex-direction: row;
+    }
+    .bar2 i {
+        font-size: 13px;
+    }
+    .head1,
+    .head,
+    .box {
+        width: 100%;
+        padding: 0;
+    }
+    .box {
+        flex-direction: column-reverse;
+    }
+    .box2 {
+        width: 100%;
+        padding-left: 0;
+    }
+}
+
+@media(max-width:512px) {
+    .sp1 {
+        display: block;
+    }
+    .topbar {
+        flex-direction: column;
+    }
+    .bar1,
+    .bar2 {
+        justify-content: center;
+    }
+}
